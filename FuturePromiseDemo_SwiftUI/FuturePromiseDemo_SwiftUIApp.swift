@@ -11,7 +11,7 @@ import SwiftUI
 struct FuturePromiseDemo_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NumberListView()
         }
     }
 }
