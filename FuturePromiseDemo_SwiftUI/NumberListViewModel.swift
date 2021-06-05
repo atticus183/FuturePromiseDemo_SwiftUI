@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 class NumberListViewModel: ObservableObject {
-    @Published var numbers = [1, 2, 3]
+    @Published var numbers: [Int] = []
     @Published var isDownloading = false
 
     private var cancellables = Set<AnyCancellable>()
